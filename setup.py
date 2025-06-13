@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 
 
 setup(
-name='mlproject',
+name='ML_Project',
 version='0.0.1',
 author='Chetana',
 author_email='chetanarane10@gmail.com',
