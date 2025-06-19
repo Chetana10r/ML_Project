@@ -19,10 +19,6 @@ logging.basicConfig(
     filename=LOG_FILE_PATH,
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
+    force=True # This will re-apply the configuration even if handlers already exist
 )
 
-# Example usage of the logger
-if __name__ == "__main__":
-    logging.info("Logging has been started")
-    logging.warning("This is a warning message")
-    logging.error("This is an error message")
